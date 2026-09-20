@@ -4,27 +4,45 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/david-rodriguez-nyc)
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Analysis Methods](#analysis-methods)
-- [Findings](#findings)
-- [Proposed Improvements](#proposed-improvements)
-- [Technical Details](#technical-details)
-  - [Running Locally](#running-locally)
-    - [Method 1: Using uv (Preferred)](#method-1-using-uv-preferred)
-    - [Method 2: Using pip](#method-2-using-pip)
-- [License](#license)
+- [B82 Bus Analysis](#b82-bus-analysis)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Analysis Methods](#analysis-methods)
+  - [Findings](#findings)
+  - [Proposed Improvements](#proposed-improvements)
+  - [Technical Details](#technical-details)
+    - [Running Locally](#running-locally)
+      - [Method 1: Using uv (Preferred)](#method-1-using-uv-preferred)
+      - [Method 2: Using pip](#method-2-using-pip)
+    - [Libraries Used](#libraries-used)
+    - [Datasets Used](#datasets-used)
+    - [License](#license)
 
 ## Introduction
-The B82 Bus Analysis project aims to evaluate the performance of the B82 bus line and identify potential areas for improvement. This repository serves both as the source code for the analysis and the foundation for the project's GitHub Pages site.
+The B82 Bus, a bus I rather frequently use, either to transfer to the F train, or to head to tranfer to the B44/B44-SBS in order to get to Brooklyn College. 
+
+![Image of B82 route to Brooklyn College]()
+
+The B82 has always one flaw however, depending on the time of day, there may be traffic which causes delays, or a load of passengers which makes the bus crowded. This problem is especially shown during the late afternoon, which I can one time where the bus took forever, although I eventually returned home the trip felt very long, longer than it probably was. 
+
+![Image of B82 route during late affernoon]()
+
+This project aims to analyze the B82 and B82-SBS bus line, and figure out what areas could use improvment. Several aspects aimed to be analyzed, including the average time it takes to get between each stop, the traffic in each street it passes by, and the amount of passengers that get on and off the bus at each stop.
 
 ## Analysis Methods
 *Placeholder: Details on data collection, processing, and analysis techniques will be added here.*
 
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
 ## Findings
 *Placeholder: Key findings and visualizations from the analysis will be added here.*
 
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
 ## Proposed Improvements
 *Placeholder: Recommendations for improving the B82 bus line based on the analysis will be added here.*
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## Technical Details
 
@@ -62,5 +80,13 @@ cd b82_analysis
    pip install -r requirements.txt
    ```
 
-## License
+### Libraries Used
+tbd...
+
+### Datasets Used
+tbd...
+
+### License
 This project is licensed under the [Apache License 2.0](LICENSE) - see the LICENSE file for details.
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
