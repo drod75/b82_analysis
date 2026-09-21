@@ -84,7 +84,11 @@ cd b82_analysis
 tbd...
 
 ### Datasets Used
-tbd...
+- [MTA Bus Hourly Ridership](https://data.ny.gov/Transportation/MTA-Bus-Hourly-Ridership-Beginning-2025/gxb3-akrn/about_data)
+- [MTA Bus Stops](https://data.ny.gov/Transportation/MTA-Bus-Stops/2ucp-7wg5/about_data)
+- [MTA Bus Stop-Level Ridership](https://data.ny.gov/Transportation/MTA-Bus-Stop-Level-Ridership-Beginning-2024/fvdm-uavx/about_data)
+- [2020 Neighborhood Tabulation Areas (NTAs)](https://data.cityofnewyork.us/City-Government/2020-Neighborhood-Tabulation-Areas-NTAs-/9nt8-h7nd/about_data)
+- [MTA Bus Routes](https://data.ny.gov/Transportation/MTA-Bus-Routes/bzwk-3hb4/about_data)
 
 ### License
 This project is licensed under the [Apache License 2.0](LICENSE) - see the LICENSE file for details.
