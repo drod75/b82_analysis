@@ -13,9 +13,8 @@ class SOQL_Querying:
         self.headers = {"X-App-Token": app_token} if app_token else {}
 
     def parse_query(self, query_str: str) -> str:
-        """Strips surrounding multiline quotes/whitespace and flattens newlines."""
-        cleaned = re.sub(r'^["\']+|["\']+$', "", query_str.strip())
-        return " ".join(cleaned.split())
+        """Flattens newlines."""
+        return " ".join(query_str.split())
 
     def query(
         self, soql_query: str = "SELECT *", page_number: int = 1, page_size: int = 1000
